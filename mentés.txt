@@ -1,0 +1,44 @@
+othing to commit, working tree clean
+PS D:\ifksp\tesztrepo> notepad new.txt
+PS D:\ifksp\tesztrepo> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   new.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\ifksp\tesztrepo> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+        modified:   new.txt
+
+no changes added to commit (use "git add" and/or "git commit -a")
+PS D:\ifksp\tesztrepo> git add .
+PS D:\ifksp\tesztrepo> git status
+On branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+        modified:   new.txt
+
+PS D:\ifksp\tesztrepo> git commit -m "New.txt monified again"
+[main f361aab] New.txt monified again
+ 1 file changed, 0 insertions(+), 0 deletions(-)
+PS D:\ifksp\tesztrepo> git status
+On branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+PS D:\ifksp\tesztrepo>
